@@ -1,17 +1,59 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Kerakli meta taglar -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap demo</title>
     <!-- Bootstrap CSS -->
-    <link href="./bootstrap-5.3.0-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link
+      href="./bootstrap-5.3.0-dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .red-container {
+        background-color: red;
+        color: white;
+        margin-top: 50px;
+        padding: 20px;
+        border-radius: 5px;
+      }
+    </style>
   </head>
   <body>
-    <h1>Hello, world!</h1>
-    <div class="alert alert-info">Alert component</div>
-    <!-- Bootstrap JavaScript -->
-   <script src="./bootstrap-5.3.0-dist/js/bootstrap.bundle.min.js"></script>
+
+    <div class="container red-container">
+      <h1>What is Lorem Ipsum ?</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed voluptatem
+        quibusdam labore, voluptatum maxime quae molestiae minima. Beatae a id
+        accusantium facere totam? Fuga quo accusamus tempore maxime reiciendis
+        non ullam officiis dolor nemo praesentium incidunt dolores, pariatur
+        laboriosam blanditiis, facilis dolorem, cumque possimus molestias. Minus
+        aperiam beatae illo quisquam!
+      </p>
+    </div>
+
+    <div class="container-fluid red-container">
+      <h1>What is Lorem Ipsum ?</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed voluptatem
+        quibusdam labore, voluptatum maxime quae molestiae minima. Beatae a id
+        accusantium facere totam? Fuga quo accusamus tempore maxime reiciendis
+        non ullam officiis dolor nemo praesentium incidunt dolores, pariatur
+        laboriosam blanditiis, facilis dolorem, cumque possimus molestias. Minus
+        aperiam beatae illo quisquam!
+      </p>
+    </div>
+
+    <div class="container red-container">container</div>
+    <div class="container-sm red-container">sm container</div>
+    <div class="container-md red-container">md container</div>
+    <div class="container-lg red-container">lg container</div>
+    <div class="container-xl red-container">xl container</div>
+    <div class="container-xxl red-container">xxl container</div>
+    <div class="container-fluid red-container">fluid container</div>
+
+    <script src="./bootstrap-5.3.0-dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
