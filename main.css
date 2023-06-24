@@ -1,6 +1,4 @@
 .row {
-   /* min-height: 10rem; */
-   margin-top: 20px;
    background-color: green;
 }
 
@@ -11,4 +9,8 @@
   color: white;
   border: 2px solid white;
   text-align: center;
+}
+
+.content {
+  background-color: blue;
 }
