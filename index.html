@@ -13,97 +13,47 @@
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
-    
-    <!-- Radio -->
+    <!-- Range -->
 
-    <!-- Radio toggle buttons -->
+    <!-- form-range -->
 
     <!-- <div class="container">
-      <input
-        type="radio"
-        class="btn-check"
-        name="options"
-        id="option1"
-        autocomplete="off"
-        checked
-      />
-      <label class="btn btn-secondary" for="option1">Checked</label>
-
-      <input
-        type="radio"
-        class="btn-check"
-        name="options"
-        id="option2"
-        autocomplete="off"
-      />
-      <label class="btn btn-primary" for="option2">Radio</label>
-
-      <input
-        type="radio"
-        class="btn-check"
-        name="options"
-        id="option3"
-        autocomplete="off"
-        disabled
-      />
-      <label class="btn btn-secondary" for="option3">Disabled</label>
-
-      <input
-        type="radio"
-        class="btn-check"
-        name="options"
-        id="option4"
-        autocomplete="off"
-      />
-      <label class="btn btn-dark" for="option4">Radio</label>
+      <label for="customRange" class="form-label">Example range</label>
+      <input type="range" class="form-range" id="customRange" />
     </div> -->
 
-    <!-- Outlined styles -->
+    <!-- Disabled range -->
+
+    <!-- <div class="container">
+      <label for="disabledRange" class="form-label">Disabled range</label>
+      <input type="range" class="form-range" id="disabledRange" disabled />
+    </div> -->
+
+    <!-- Min and max range -->
+
+    <!-- <div class="container">
+      <label for="customRange2" class="form-label">Min and max range</label>
+      <input
+        type="range"
+        class="form-range"
+        min="0"
+        max="5"
+        id="customRange2"
+      />
+    </div> -->
+
+    <!-- Steps -->
 
     <div class="container">
+      <label for="customRange3" class="form-label">Steps range</label>
       <input
-        type="checkbox"
-        class="btn-check"
-        id="btn-check-outlined"
-        autocomplete="off"
+        type="range"
+        class="form-range"
+        min="0"
+        max="5"
+        step="0.5"
+        id="customRange3"
       />
-      <label class="btn btn-outline-primary" for="btn-check-outlined"
-        >Single toggle</label
-      ><br />
-
-      <input
-        type="checkbox"
-        class="btn-check"
-        id="btn-check-2-outlined"
-        checked
-        autocomplete="off"
-      />
-      <label class="btn btn-outline-secondary" for="btn-check-2-outlined"
-        >Checked</label
-      ><br />
-
-      <input
-        type="radio"
-        class="btn-check"
-        name="options-outlined"
-        id="success-outlined"
-        autocomplete="off"
-        checked
-      />
-      <label class="btn btn-outline-success" for="success-outlined"
-        >Checked success radio</label
-      >
-
-      <input
-        type="radio"
-        class="btn-check"
-        name="options-outlined"
-        id="danger-outlined"
-        autocomplete="off"
-      />
-      <label class="btn btn-outline-danger" for="danger-outlined"
-        >Danger radio</label
-      >
     </div>
 
     <script src="./bootstrap-5.3.0-dist/js/bootstrap.bundle.min.js"></script>
