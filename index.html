@@ -11,77 +11,64 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="main.css" />
+    
   </head>
   <body>
     <!-- Components -->
 
-    <!-- Badges -->
+    <!-- Breadcrumb -->
 
-    <div class="container mb-5">
-      <h1>Example heading <span class="badge bg-secondary">New</span></h1>
-      <h2>Example heading <span class="badge bg-secondary">New</span></h2>
-      <h3>Example heading <span class="badge bg-secondary">New</span></h3>
-      <h4>Example heading <span class="badge bg-secondary">New</span></h4>
-      <h5>Example heading <span class="badge bg-secondary">New</span></h5>
-      <h6>Example heading <span class="badge bg-secondary">New</span></h6>
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item active" aria-current="page">Home</li>
+        </ol>
+      </nav>
+
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Library</li>
+        </ol>
+      </nav>
+
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Library</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Data</li>
+        </ol>
+      </nav>
     </div>
 
-    <div class="container mb-5">
-      <button type="button" class="btn btn-primary">
-        Notifications <span class="badge bg-secondary">4</span>
-      </button>
+    <!-- Dividers -->
+
+    <div class="container">
+      <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Library</li>
+        </ol>
+      </nav>
     </div>
 
-    <!-- Positioned -->
-
-    <div class="container mb-5">
-      <button type="button" class="btn btn-primary position-relative">
-        Inbox
-        <span
-          class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
-        >
-          99+
-          <span class="visually-hidden">unread messages</span>
-        </span>
-      </button>
+    <div class="container">
+      <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Library</li>
+        </ol>
+      </nav>
     </div>
 
-    <div class="container mb-5">
-      <button type="button" class="btn btn-primary position-relative">
-        Profile
-        <span
-          class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle"
-        >
-          <span class="visually-hidden">New alerts</span>
-        </span>
-      </button>
-    </div>
-
-    <!-- Background colors -->
-
-    <div class="container mb-5">
-      <span class="badge bg-primary">Primary</span>
-      <span class="badge bg-secondary">Secondary</span>
-      <span class="badge bg-success">Success</span>
-      <span class="badge bg-danger">Danger</span>
-      <span class="badge bg-warning text-dark">Warning</span>
-      <span class="badge bg-info text-dark">Info</span>
-      <span class="badge bg-light text-dark">Light</span>
-      <span class="badge bg-dark">Dark</span>
-    </div>
-
-    <!-- Pill badges -->
-
-    <div class="container mb-5">
-      <span class="badge rounded-pill bg-primary">Primary</span>
-      <span class="badge rounded-pill bg-secondary">Secondary</span>
-      <span class="badge rounded-pill bg-success">Success</span>
-      <span class="badge rounded-pill bg-danger">Danger</span>
-      <span class="badge rounded-pill bg-warning text-dark">Warning</span>
-      <span class="badge rounded-pill bg-info text-dark">Info</span>
-      <span class="badge rounded-pill bg-light text-dark">Light</span>
-      <span class="badge rounded-pill bg-dark">Dark</span>
-    </div>
+   <div class="container">
+    <nav style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Library</li>
+      </ol>
+    </nav>
+   </div>
 
     <script src="./bootstrap-5.3.0-dist/js/bootstrap.bundle.min.js"></script>
   </body>
